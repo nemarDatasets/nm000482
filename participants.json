@@ -1,0 +1,14 @@
+{
+  "age": {
+    "Description": "not released"
+  },
+  "sex": {
+    "Description": "not released"
+  },
+  "group": {
+    "Description": "patients with intracranial electrodes for epilepsy monitoring (CCEP mapping study; not stated per participant in the release)"
+  },
+  "release_folder": {
+    "Description": "release folder name used by the analysis scripts and the figshare file ids of its files"
+  }
+}

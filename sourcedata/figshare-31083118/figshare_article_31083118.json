@@ -1,0 +1,436 @@
+{
+  "files": [
+    {
+      "id": 61081318,
+      "name": "condensed_ecog_info_only.mat",
+      "size": 78456,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081318",
+      "supplied_md5": "301ea40d9e67e7f9366895011f35e8ca",
+      "computed_md5": "301ea40d9e67e7f9366895011f35e8ca",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081396,
+      "name": "condensed_ecog_OFC_only.mat",
+      "size": 254593715,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081396",
+      "supplied_md5": "4cc75e21187c9440f59dc42a1bbad0c3",
+      "computed_md5": "4cc75e21187c9440f59dc42a1bbad0c3",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081321,
+      "name": "metadata.mat",
+      "size": 308344,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081321",
+      "supplied_md5": "32e2c27812e45ca6062456e54d910b42",
+      "computed_md5": "32e2c27812e45ca6062456e54d910b42",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081324,
+      "name": "stimset.mat",
+      "size": 2221,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081324",
+      "supplied_md5": "b66af080e98a1fd98f05ed6408643740",
+      "computed_md5": "b66af080e98a1fd98f05ed6408643740",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081327,
+      "name": "condensed_ecog_info_only.mat",
+      "size": 95664,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081327",
+      "supplied_md5": "2625e0041df1f0da650213384071629e",
+      "computed_md5": "2625e0041df1f0da650213384071629e",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081402,
+      "name": "condensed_ecog_OFC_only.mat",
+      "size": 457991868,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081402",
+      "supplied_md5": "b95d6eb8191716f57f53298b5ecd4659",
+      "computed_md5": "b95d6eb8191716f57f53298b5ecd4659",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081330,
+      "name": "metadata.mat",
+      "size": 628072,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081330",
+      "supplied_md5": "7660cf1d9c11b7e2db059a1c942adf13",
+      "computed_md5": "7660cf1d9c11b7e2db059a1c942adf13",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081333,
+      "name": "stimset.mat",
+      "size": 1815,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081333",
+      "supplied_md5": "acfd17371243ee2fb8e37e773b562593",
+      "computed_md5": "acfd17371243ee2fb8e37e773b562593",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081336,
+      "name": "condensed_ecog_info_only.mat",
+      "size": 86080,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081336",
+      "supplied_md5": "59afddae1b9a877029ba08fefc5375c8",
+      "computed_md5": "59afddae1b9a877029ba08fefc5375c8",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081393,
+      "name": "condensed_ecog_OFC_only.mat",
+      "size": 196793403,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081393",
+      "supplied_md5": "c439caa53fd103133a9d700fb62382eb",
+      "computed_md5": "c439caa53fd103133a9d700fb62382eb",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081339,
+      "name": "metadata.mat",
+      "size": 144080,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081339",
+      "supplied_md5": "e5e55fe4e9f770eb5ac84a4a02feefba",
+      "computed_md5": "e5e55fe4e9f770eb5ac84a4a02feefba",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081345,
+      "name": "stimset.mat",
+      "size": 761,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081345",
+      "supplied_md5": "34bd1982dcb3ac0ef54f8a3041718fbc",
+      "computed_md5": "34bd1982dcb3ac0ef54f8a3041718fbc",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081342,
+      "name": "condensed_ecog_info_only.mat",
+      "size": 2919,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081342",
+      "supplied_md5": "77f11be76ea37348dfdb1fc763b1fd8f",
+      "computed_md5": "77f11be76ea37348dfdb1fc763b1fd8f",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081348,
+      "name": "metadata.mat",
+      "size": 1442312,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081348",
+      "supplied_md5": "626784d0bebd0e5d02dcd386827410c5",
+      "computed_md5": "626784d0bebd0e5d02dcd386827410c5",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081351,
+      "name": "stimset.mat",
+      "size": 4449,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081351",
+      "supplied_md5": "e56fa5862913fb7abeb3f0d32d09c39a",
+      "computed_md5": "e56fa5862913fb7abeb3f0d32d09c39a",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081354,
+      "name": "condensed_ecog_info_only.mat",
+      "size": 114600,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081354",
+      "supplied_md5": "09b2027451e782b365a9788dd940af1d",
+      "computed_md5": "09b2027451e782b365a9788dd940af1d",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081408,
+      "name": "condensed_ecog_OFC_only.mat",
+      "size": 1027221450,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081408",
+      "supplied_md5": "b1b3a281f4b9e855c67eca90e46ba26d",
+      "computed_md5": "b1b3a281f4b9e855c67eca90e46ba26d",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081357,
+      "name": "metadata.mat",
+      "size": 328704,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081357",
+      "supplied_md5": "1224889490dcd9151c2a2b1606728465",
+      "computed_md5": "1224889490dcd9151c2a2b1606728465",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081360,
+      "name": "stimset.mat",
+      "size": 1679,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081360",
+      "supplied_md5": "ea85651153fc0e4f3890bf4c2ad53e02",
+      "computed_md5": "ea85651153fc0e4f3890bf4c2ad53e02",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081363,
+      "name": "condensed_ecog_info_only.mat",
+      "size": 126944,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081363",
+      "supplied_md5": "9002d9b86a925fed4fe0cdbe9351d21c",
+      "computed_md5": "9002d9b86a925fed4fe0cdbe9351d21c",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081405,
+      "name": "condensed_ecog_OFC_only.mat",
+      "size": 1197142173,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081405",
+      "supplied_md5": "964f3b9ec7e86b5d98e4311aaf27f015",
+      "computed_md5": "964f3b9ec7e86b5d98e4311aaf27f015",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61261879,
+      "name": "CCEP_multiplearrays_multiplesubjects_zscores.m",
+      "size": 16876,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61261879",
+      "supplied_md5": "11bdcc25bf79925c704d84f02f67fbd9",
+      "computed_md5": "11bdcc25bf79925c704d84f02f67fbd9",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 61081366,
+      "name": "metadata.mat",
+      "size": 556568,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081366",
+      "supplied_md5": "47ae0421b832c9b7bc237364005894af",
+      "computed_md5": "47ae0421b832c9b7bc237364005894af",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081369,
+      "name": "stimset.mat",
+      "size": 2690,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081369",
+      "supplied_md5": "6523c73214642d473f3e821fa1226a4c",
+      "computed_md5": "6523c73214642d473f3e821fa1226a4c",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081372,
+      "name": "condensed_ecog_info_only.mat",
+      "size": 2207,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081372",
+      "supplied_md5": "bac62860d4b2012ea9c607b9bec07d11",
+      "computed_md5": "bac62860d4b2012ea9c607b9bec07d11",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081399,
+      "name": "condensed_ecog_OFC_only.mat",
+      "size": 648547358,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081399",
+      "supplied_md5": "ec8276c86462978efa1cc7fae7007e8c",
+      "computed_md5": "ec8276c86462978efa1cc7fae7007e8c",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081375,
+      "name": "metadata.mat",
+      "size": 727088,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081375",
+      "supplied_md5": "4fb7585203d38276246ed27de5731515",
+      "computed_md5": "4fb7585203d38276246ed27de5731515",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 61081378,
+      "name": "stimset.mat",
+      "size": 994,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081378",
+      "supplied_md5": "df4fb5513b50aae35d3d2c1782a8ff2d",
+      "computed_md5": "df4fb5513b50aae35d3d2c1782a8ff2d",
+      "mimetype": "application/octet-stream"
+    },
+    {
+      "id": 61081381,
+      "name": "automate_stim_metadata_collection_zscores.m",
+      "size": 5144,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081381",
+      "supplied_md5": "6132659c47bcf409e326acf8a59c8806",
+      "computed_md5": "6132659c47bcf409e326acf8a59c8806",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 61081387,
+      "name": "compute_mirrorness.m",
+      "size": 6921,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081387",
+      "supplied_md5": "8392a51b4d6feebaef5de94ed1ede929",
+      "computed_md5": "8392a51b4d6feebaef5de94ed1ede929",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 61081390,
+      "name": "subregion_analysis.m",
+      "size": 4341,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081390",
+      "supplied_md5": "bc3859af55d24734d1c6ab7ed81487d8",
+      "computed_md5": "bc3859af55d24734d1c6ab7ed81487d8",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 61081411,
+      "name": "condensed_ecog_OFC_only.mat",
+      "size": 3345849612,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/61081411",
+      "supplied_md5": "cd4d796a13f7df85353a32f3e2329083",
+      "computed_md5": "cd4d796a13f7df85353a32f3e2329083",
+      "mimetype": "application/x-hdf"
+    }
+  ],
+  "folder_structure": {
+    "61081318": "subject 1",
+    "61081321": "subject 1",
+    "61081324": "subject 1",
+    "61081327": "subject 2",
+    "61081330": "subject 2",
+    "61081333": "subject 2",
+    "61081336": "subject 3",
+    "61081339": "subject 3",
+    "61081342": "subject 4",
+    "61081345": "subject 3",
+    "61081348": "subject 4",
+    "61081351": "subject 4",
+    "61081354": "subject 5",
+    "61081357": "subject 5",
+    "61081360": "subject 5",
+    "61081363": "subject 6",
+    "61081366": "subject 6",
+    "61081369": "subject 6",
+    "61081372": "subject 7",
+    "61081375": "subject 7",
+    "61081378": "subject 7",
+    "61081381": "",
+    "61081387": "",
+    "61081390": "",
+    "61081393": "subject 3",
+    "61081396": "subject 1",
+    "61081399": "subject 7",
+    "61081402": "subject 2",
+    "61081405": "subject 6",
+    "61081408": "subject 5",
+    "61081411": "subject 4",
+    "61261879": ""
+  },
+  "authors": [
+    {
+      "id": 14609768,
+      "full_name": "Clara Starkweather",
+      "first_name": "Clara",
+      "last_name": "Starkweather",
+      "is_active": true,
+      "url_name": "Clara_Starkweather",
+      "orcid_id": "0000-0002-7772-5363"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/Rapid_Homotopic_Communication_Between_Human_Orbitofrontal_Subregions_-_dataset_and_MATLAB_codes/31083118",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">Data and codes pertaining to the manuscript \"Rapid Homotopic Communication Between Human Orbitofrontal Subregions\" by Starkweather et al. This is a cortico-cortical evoked potential mapping study. This uploaded data contains preprocessed data timeseries (condensed_ecog_OFC_only.mat) with each item within the structure referring to an individual electrode. condensed_ecog(eRec).bipolar refers to the bipolar referenced data from electrode eRec, and condensed_eocg(eRec).lat_coor corresponds to the medial/lateral distance from the lateral orbital sulcus. The critical data analysis summary (Figure 3a) contained in the manuscript was obtained by first running automate_stim_metadata_collection_zscores.m, followed by CCEP_multiplearrays_multiplesubjects_zscores</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 2,
+  "status": "public",
+  "size": 7132829508,
+  "created_date": "2026-01-22T23:17:02Z",
+  "modified_date": "2026-01-22T23:17:11Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "cortico-cortical evoked potentials (CCEPs)"
+  ],
+  "keywords": [
+    "cortico-cortical evoked potentials (CCEPs)"
+  ],
+  "categories": [
+    {
+      "id": 30334,
+      "title": "Cognitive neuroscience",
+      "parent_id": 30325,
+      "path": "/30292/30325/30334",
+      "source_id": "520203",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Starkweather, Clara (2026). Rapid Homotopic Communication Between Human Orbitofrontal Subregions - dataset and MATLAB codes. figshare. Dataset. https://doi.org/10.6084/m9.figshare.31083118.v2",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 31083118,
+  "title": "Rapid Homotopic Communication Between Human Orbitofrontal Subregions - dataset and MATLAB codes",
+  "doi": "10.6084/m9.figshare.31083118.v2",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/31083118",
+  "published_date": "2026-01-22T23:17:02Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/31083118",
+  "url_public_api": "https://api.figshare.com/v2/articles/31083118",
+  "url_private_html": "https://figshare.com/account/articles/31083118",
+  "url_public_html": "https://figshare.com/articles/dataset/Rapid_Homotopic_Communication_Between_Human_Orbitofrontal_Subregions_-_dataset_and_MATLAB_codes/31083118",
+  "timeline": {
+    "posted": "2026-01-22T23:17:02",
+    "firstOnline": "2026-01-19"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

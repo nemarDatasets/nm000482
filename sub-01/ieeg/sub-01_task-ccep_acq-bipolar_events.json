@@ -1,0 +1,15 @@
+{
+  "trial_type": {
+    "Description": "stim_<channel> = single stimulation pulse delivered at that electrode (release stimset.mat)"
+  },
+  "stim_amplitude_mA": {
+    "Description": "stimulation amplitude of the pulse train (release field amplitude; unit assumed mA as in the article)",
+    "Units": "mA"
+  },
+  "stim_electrode_index": {
+    "Description": "1-based index of the stimulating electrode in the release struct (same indexing as condensed_ecog)"
+  },
+  "sample": {
+    "Description": "release field times (sample index at 1000 Hz)"
+  }
+}

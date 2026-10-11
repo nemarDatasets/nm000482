@@ -1,0 +1,29 @@
+{
+  "SpatialReference": "n/a: no imaging is released; the columns lat/med/mid/olf/trans_coor are distances (mm) relative to orbitofrontal sulci as given by the authors, not image coordinates",
+  "brain_region": {
+    "Description": "release electrode label (e.g. ROFC = right orbitofrontal, LOFC = left orbitofrontal, OL/OD/LOD/ROD/RSFG/RSGC/LSFG as named by the authors; abbreviations not expanded)"
+  },
+  "anatomical_info": {
+    "Description": "release field anatomical_info ('orb' = orbital)"
+  },
+  "lat_coor": {
+    "Description": "medial/lateral distance from the lateral orbital sulcus (release description)",
+    "Units": "mm"
+  },
+  "med_coor": {
+    "Description": "release field med_coor (not defined in the release)",
+    "Units": "mm"
+  },
+  "mid_coor": {
+    "Description": "release field mid_coor (not defined in the release)",
+    "Units": "mm"
+  },
+  "olf_coor": {
+    "Description": "release field olf_coor (not defined in the release)",
+    "Units": "mm"
+  },
+  "trans_coor": {
+    "Description": "release field trans_coor (not defined in the release)",
+    "Units": "mm"
+  }
+}

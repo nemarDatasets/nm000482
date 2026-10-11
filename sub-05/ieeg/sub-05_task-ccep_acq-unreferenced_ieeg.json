@@ -1,0 +1,27 @@
+{
+  "TaskName": "ccep",
+  "TaskDescription": "Cortico-cortical evoked potential (CCEP) mapping: single-pulse direct electrical stimulation of orbitofrontal electrodes while recording from the other orbitofrontal contacts (release description).",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "authors' preprocessing": {
+      "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "recording reference channel ROFC1Ref (release field channel_names)",
+  "iEEGPlacementScheme": "Orbitofrontal cortex electrodes (regions in the release: LOFC, ROFC); electrode types are not stated in the release (ECOG used for all)",
+  "ElectricalStimulation": true,
+  "ElectricalStimulationParameters": "Single-pulse stimulation; amplitudes (mA, release field amplitude) and pulse times per stimulating electrode in events.tsv",
+  "Manufacturer": "n/a",
+  "InstitutionName": "n/a",
+  "RecordingType": "continuous",
+  "SamplingFrequency": 1000.0,
+  "RecordingDuration": 2578.776,
+  "ECOGChannelCount": 27,
+  "SEEGChannelCount": 0,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

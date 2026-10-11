@@ -1,0 +1,657 @@
+{
+  "cand_id": "src-literature-138",
+  "converter": "harness/o5c_B_conv_lit138.py (ieeg-nemar-20261005 campaign, lane o5c-B)",
+  "licence": {
+    "value": "CC BY 4.0",
+    "read_from": "figshare api license.name"
+  },
+  "runs": [
+    {
+      "n_samples": 1427400,
+      "sfreq": 1000.0,
+      "n_channels": 18,
+      "float32_max_abs_err": 0.0,
+      "roundtrip_ok": true,
+      "duration_s": 1427.4,
+      "sub": "01",
+      "acq": "unreferenced",
+      "stem": "sub-01_task-ccep_acq-unreferenced",
+      "bad": [],
+      "absmax": 3627.56689453125,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 560,
+      "lens": [
+        1427400
+      ]
+    },
+    {
+      "n_samples": 1427400,
+      "sfreq": 1000.0,
+      "n_channels": 18,
+      "float32_max_abs_err": 0.0002062813437078148,
+      "roundtrip_ok": true,
+      "duration_s": 1427.4,
+      "sub": "01",
+      "acq": "bipolar",
+      "stem": "sub-01_task-ccep_acq-bipolar",
+      "bad": [
+        "OL6",
+        "OL12",
+        "OL18"
+      ],
+      "absmax": 4310.413699368465,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 560,
+      "lens": [
+        1,
+        1427400
+      ]
+    },
+    {
+      "n_samples": 1514881,
+      "sfreq": 1000.0,
+      "n_channels": 23,
+      "float32_max_abs_err": 0.007807678892277181,
+      "roundtrip_ok": true,
+      "duration_s": 1514.881,
+      "sub": "02",
+      "acq": "unreferenced",
+      "stem": "sub-02_task-ccep_acq-unreferenced",
+      "bad": [],
+      "absmax": 0.1974465491700904,
+      "scale_note": "values stored in volts in the release (|x| < 1); multiplied by 1e6",
+      "n_events": 376,
+      "lens": [
+        1514881
+      ]
+    },
+    {
+      "n_samples": 1514881,
+      "sfreq": 1000.0,
+      "n_channels": 23,
+      "float32_max_abs_err": 0.0077235474600456655,
+      "roundtrip_ok": true,
+      "duration_s": 1514.881,
+      "sub": "02",
+      "acq": "bipolar",
+      "stem": "sub-02_task-ccep_acq-bipolar",
+      "bad": [
+        "LOFC10",
+        "LSFG1",
+        "LSFG2",
+        "ROFC1",
+        "ROFC2",
+        "ROFC9",
+        "RSFG2"
+      ],
+      "absmax": 0.1619708743369162,
+      "scale_note": "values stored in volts in the release (|x| < 1); multiplied by 1e6",
+      "n_events": 376,
+      "lens": [
+        1,
+        1514881
+      ]
+    },
+    {
+      "n_samples": 844934,
+      "sfreq": 1000.0,
+      "n_channels": 20,
+      "float32_max_abs_err": 0.0037920924369245768,
+      "roundtrip_ok": true,
+      "duration_s": 844.934,
+      "sub": "03",
+      "acq": "unreferenced",
+      "stem": "sub-03_task-ccep_acq-unreferenced",
+      "bad": [],
+      "absmax": 0.07851657433290757,
+      "scale_note": "values stored in volts in the release (|x| < 1); multiplied by 1e6",
+      "n_events": 117,
+      "lens": [
+        844934
+      ]
+    },
+    {
+      "n_samples": 844934,
+      "sfreq": 1000.0,
+      "n_channels": 20,
+      "float32_max_abs_err": 0.0019427457664278336,
+      "roundtrip_ok": true,
+      "duration_s": 844.934,
+      "sub": "03",
+      "acq": "bipolar",
+      "stem": "sub-03_task-ccep_acq-bipolar",
+      "bad": [
+        "LOD1",
+        "LOD2",
+        "LOD3",
+        "LOD4",
+        "LOD10",
+        "ROD1",
+        "ROD2",
+        "ROD8",
+        "ROD9",
+        "ROD10"
+      ],
+      "absmax": 0.06196628885079555,
+      "scale_note": "values stored in volts in the release (|x| < 1); multiplied by 1e6",
+      "n_events": 117,
+      "lens": [
+        1,
+        844934
+      ]
+    },
+    {
+      "n_samples": 5400000,
+      "sfreq": 1000.0,
+      "n_channels": 42,
+      "float32_max_abs_err": 0.00048828024409885984,
+      "roundtrip_ok": true,
+      "duration_s": 5400.0,
+      "sub": "04",
+      "acq": "unreferenced",
+      "stem": "sub-04_task-ccep_acq-unreferenced",
+      "bad": [],
+      "absmax": 15036.026761122657,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 1120,
+      "lens": [
+        5400000
+      ]
+    },
+    {
+      "n_samples": 5400000,
+      "sfreq": 1000.0,
+      "n_channels": 42,
+      "float32_max_abs_err": 0.0009707993594929576,
+      "roundtrip_ok": true,
+      "duration_s": 5400.0,
+      "sub": "04",
+      "acq": "bipolar",
+      "stem": "sub-04_task-ccep_acq-bipolar",
+      "bad": [
+        "ROFC16",
+        "RSGC13",
+        "LOFC16"
+      ],
+      "absmax": 24584.03632946981,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 1120,
+      "lens": [
+        1,
+        5400000
+      ]
+    },
+    {
+      "n_samples": 2578776,
+      "sfreq": 1000.0,
+      "n_channels": 27,
+      "float32_max_abs_err": 0.00048827891805558465,
+      "roundtrip_ok": true,
+      "duration_s": 2578.776,
+      "sub": "05",
+      "acq": "unreferenced",
+      "stem": "sub-05_task-ccep_acq-unreferenced",
+      "bad": [],
+      "absmax": 14277.889216677922,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 381,
+      "lens": [
+        2578776
+      ]
+    },
+    {
+      "n_samples": 2578776,
+      "sfreq": 1000.0,
+      "n_channels": 27,
+      "float32_max_abs_err": 0.0009708335455798078,
+      "roundtrip_ok": true,
+      "duration_s": 2578.776,
+      "sub": "05",
+      "acq": "bipolar",
+      "stem": "sub-05_task-ccep_acq-bipolar",
+      "bad": [
+        "ROFC16",
+        "LOFC11"
+      ],
+      "absmax": 26243.51848363971,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 381,
+      "lens": [
+        1,
+        2578776
+      ]
+    },
+    {
+      "n_samples": 2700036,
+      "sfreq": 1000.0,
+      "n_channels": 30,
+      "float32_max_abs_err": 0.00048828096441866364,
+      "roundtrip_ok": true,
+      "duration_s": 2700.036,
+      "sub": "06",
+      "acq": "unreferenced",
+      "stem": "sub-06_task-ccep_acq-unreferenced",
+      "bad": [],
+      "absmax": 15010.80142194849,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 627,
+      "lens": [
+        2700036
+      ]
+    },
+    {
+      "n_samples": 2700036,
+      "sfreq": 1000.0,
+      "n_channels": 30,
+      "float32_max_abs_err": 0.0009714886873553041,
+      "roundtrip_ok": true,
+      "duration_s": 2700.036,
+      "sub": "06",
+      "acq": "bipolar",
+      "stem": "sub-06_task-ccep_acq-bipolar",
+      "bad": [
+        "ROFC15",
+        "LOFC15"
+      ],
+      "absmax": 27325.901974669672,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 627,
+      "lens": [
+        1,
+        2700036
+      ]
+    },
+    {
+      "n_samples": 1415827,
+      "sfreq": 1000.0,
+      "n_channels": 31,
+      "float32_max_abs_err": 0.0004882795474259183,
+      "roundtrip_ok": true,
+      "duration_s": 1415.827,
+      "sub": "07",
+      "acq": "unreferenced",
+      "stem": "sub-07_task-ccep_acq-unreferenced",
+      "bad": [],
+      "absmax": 14504.770161507295,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 182,
+      "lens": [
+        1415827
+      ]
+    },
+    {
+      "n_samples": 1415827,
+      "sfreq": 1000.0,
+      "n_channels": 31,
+      "float32_max_abs_err": 0.0007037273899186403,
+      "roundtrip_ok": true,
+      "duration_s": 1415.827,
+      "sub": "07",
+      "acq": "bipolar",
+      "stem": "sub-07_task-ccep_acq-bipolar",
+      "bad": [
+        "ROFC16",
+        "LOFC15"
+      ],
+      "absmax": 26885.11984435239,
+      "scale_note": "values stored in microvolts in the release",
+      "n_events": 182,
+      "lens": [
+        1,
+        1415827
+      ]
+    }
+  ],
+  "sourcedata": [
+    {
+      "dst": "sourcedata/figshare-31083118/subject_01/condensed_ecog_info_only.mat",
+      "figshare_file_id": "61081318",
+      "bytes": 78456,
+      "sha256": "fb6c3d3b1af1f19fcbaea8f06ab070c39f55fd9bde4a6758fff5c098ba0b4b5a"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_01/condensed_ecog_OFC_only.mat",
+      "figshare_file_id": "61081396",
+      "bytes": 254593715,
+      "sha256": "452d7513c46b4ecb91e2dfceb10cb2cf41c84e5517a6640b04df4678d1a391f5"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_01/metadata.mat",
+      "figshare_file_id": "61081321",
+      "bytes": 308344,
+      "sha256": "1ed51b9f82cf1b765fcac9410a053e5071c91b7a193bcff013d89fa2781b5b37"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_01/stimset.mat",
+      "figshare_file_id": "61081324",
+      "bytes": 2221,
+      "sha256": "0d1b3f028887a4e86d0991e3ec76ecdfea28f19e9d38bc914aa0f71a9f9e93fd"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_02/condensed_ecog_info_only.mat",
+      "figshare_file_id": "61081327",
+      "bytes": 95664,
+      "sha256": "0f800a1eafc8e34f6113fbefe24c19dbb648afb079583f36f95f1aa77bd4750d"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_02/condensed_ecog_OFC_only.mat",
+      "figshare_file_id": "61081402",
+      "bytes": 457991868,
+      "sha256": "b7a6df58dc5a6da3376ceaaa65c6ef6e78ccaa5d974bf0de33c077a8c8ed1aef"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_02/metadata.mat",
+      "figshare_file_id": "61081330",
+      "bytes": 628072,
+      "sha256": "994ab89957e610c94db9d0c6f9333cf076bd710cd8c4818db38cbac7720af8a1"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_02/stimset.mat",
+      "figshare_file_id": "61081333",
+      "bytes": 1815,
+      "sha256": "75b4e1cc68aa0e009965da16228620c15622263f9f4d32e319cc9d08c324d65e"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_03/condensed_ecog_info_only.mat",
+      "figshare_file_id": "61081336",
+      "bytes": 86080,
+      "sha256": "804c3c1724ed324df3929266c7a329bb87270194ce417847ee1e16a784a313f1"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_03/condensed_ecog_OFC_only.mat",
+      "figshare_file_id": "61081393",
+      "bytes": 196793403,
+      "sha256": "d09dd5dd8ab66bd13290cbc8f03379ea96d11e1617d4c6c325d9764f3b1e2aed"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_03/metadata.mat",
+      "figshare_file_id": "61081339",
+      "bytes": 144080,
+      "sha256": "e69709ef8fbe6dd111d2dbe1e1fd034d99395b1234aedbcff04b69754b70ecac"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_03/stimset.mat",
+      "figshare_file_id": "61081345",
+      "bytes": 761,
+      "sha256": "2662d3051bd937b40fcefb8cd7d0322dbd06633c9ca4df7b3557a22df0409c83"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_04/condensed_ecog_info_only.mat",
+      "figshare_file_id": "61081342",
+      "bytes": 2919,
+      "sha256": "e6dfb1336ff542cebf0cfda723d3b2d38cbb74b51c392fb10fa1f62ddc980b63"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_04/condensed_ecog_OFC_only.mat",
+      "figshare_file_id": "61081411",
+      "bytes": 3345849612,
+      "sha256": "d9097a7662a19eacefd3c19137231b853057fce74d3970320b0f31f098d98578"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_04/metadata.mat",
+      "figshare_file_id": "61081348",
+      "bytes": 1442312,
+      "sha256": "2dd3f91e120a84c42d5ed92212862ba3a048f500a25aad80487d79a373414ed4"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_04/stimset.mat",
+      "figshare_file_id": "61081351",
+      "bytes": 4449,
+      "sha256": "cc0d8d2c43e842c45465693232711a5634220e98df211ede8b11085550ccebcf"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_05/condensed_ecog_info_only.mat",
+      "figshare_file_id": "61081354",
+      "bytes": 114600,
+      "sha256": "02241e9760a1977920ecd3a4cbcc88297920658062ee720853d1e12f4cc5319d"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_05/condensed_ecog_OFC_only.mat",
+      "figshare_file_id": "61081408",
+      "bytes": 1027221450,
+      "sha256": "c15ad2d4bc1fc478b0c8f936636a6c158a5aa866db62938bf983f542817b711e"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_05/metadata.mat",
+      "figshare_file_id": "61081357",
+      "bytes": 328704,
+      "sha256": "f6cb90aff63981e5a69553fc56246320deae6af8dda8c0c26ffe95e81c341b29"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_05/stimset.mat",
+      "figshare_file_id": "61081360",
+      "bytes": 1679,
+      "sha256": "2c16816183247468a400a94b6a339c07d8cfb82b108fc2fc2ada1510b7d898bc"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_06/condensed_ecog_info_only.mat",
+      "figshare_file_id": "61081363",
+      "bytes": 126944,
+      "sha256": "267d1eabb5215077c6fd0ebf96ad4e8686b5b7b3f60cac7d35d122317fb75912"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_06/condensed_ecog_OFC_only.mat",
+      "figshare_file_id": "61081405",
+      "bytes": 1197142173,
+      "sha256": "16276336c290ab21aeb53caccceea759188dc65179512ad5eded4a9908ae1f95"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_06/metadata.mat",
+      "figshare_file_id": "61081366",
+      "bytes": 556568,
+      "sha256": "a1c83934de115c5bc569c315ff2523fe396ea3dfafe5cb670f50701d506c7e9b"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_06/stimset.mat",
+      "figshare_file_id": "61081369",
+      "bytes": 2690,
+      "sha256": "59d7331fb4b1ce27586e7e6436c01381f210a8042d843927273e8296f953a9e8"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_07/condensed_ecog_info_only.mat",
+      "figshare_file_id": "61081372",
+      "bytes": 2207,
+      "sha256": "1fa00d058c486f649aee771ae7dde2ce5ed380693ad839324421331103ef56f1"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_07/condensed_ecog_OFC_only.mat",
+      "figshare_file_id": "61081399",
+      "bytes": 648547358,
+      "sha256": "1bcadd44cd636ef6f61d39d658c45ad22fa5dd4bd716225389de84ec65847641"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_07/metadata.mat",
+      "figshare_file_id": "61081375",
+      "bytes": 727088,
+      "sha256": "65633417e3ec0241ff10844e8771069e540b788730b74e50d856688b9b4e7cca"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/subject_07/stimset.mat",
+      "figshare_file_id": "61081378",
+      "bytes": 994,
+      "sha256": "69ea2fdc5f8d4ba6ad266c173aca74c0fdbc7a8a4fae952a2de515976f19390f"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/code/subregion_analysis.m",
+      "bytes": 4341,
+      "sha256": "a678bc77d6364f7b3c2b896fe45dc35163fcc0e38d4e537f6f740b15909c6632"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/code/CCEP_multiplearrays_multiplesubjects_zscores.m",
+      "bytes": 16876,
+      "sha256": "a1545aaec5069118bf9060faa4745ec85fc31bd99e54599392ecbd0cca6e7a8b"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/code/compute_mirrorness.m",
+      "bytes": 6921,
+      "sha256": "c7c59cce629d40eb4295146afe2b2edda2407300c66ce969c302843670693c8f"
+    },
+    {
+      "dst": "sourcedata/figshare-31083118/code/automate_stim_metadata_collection_zscores.m",
+      "bytes": 5144,
+      "sha256": "afb121fed5f36d7282e802b7ff074a6b26b2a18b9a2b0f567342ea05936cf2f3"
+    }
+  ],
+  "subjects": {
+    "01": {
+      "n_channels": 18,
+      "fs": 1000.0,
+      "fs_source": "Fs field",
+      "reference_channel": "n/a",
+      "regions": [
+        "OL"
+      ],
+      "acq": {
+        "unreferenced": {
+          "n_bad": 0,
+          "duration_s": 1427.4,
+          "roundtrip_ok": true
+        },
+        "bipolar": {
+          "n_bad": 3,
+          "duration_s": 1427.4,
+          "roundtrip_ok": true
+        }
+      }
+    },
+    "02": {
+      "n_channels": 23,
+      "fs": 1000.0,
+      "fs_source": "Fs field",
+      "reference_channel": "n/a",
+      "regions": [
+        "LOFC",
+        "LSFG",
+        "ROFC",
+        "RSFG"
+      ],
+      "acq": {
+        "unreferenced": {
+          "n_bad": 0,
+          "duration_s": 1514.881,
+          "roundtrip_ok": true
+        },
+        "bipolar": {
+          "n_bad": 7,
+          "duration_s": 1514.881,
+          "roundtrip_ok": true
+        }
+      }
+    },
+    "03": {
+      "n_channels": 20,
+      "fs": 1000.0,
+      "fs_source": "Fs field",
+      "reference_channel": "n/a",
+      "regions": [
+        "LOD",
+        "ROD"
+      ],
+      "acq": {
+        "unreferenced": {
+          "n_bad": 0,
+          "duration_s": 844.934,
+          "roundtrip_ok": true
+        },
+        "bipolar": {
+          "n_bad": 10,
+          "duration_s": 844.934,
+          "roundtrip_ok": true
+        }
+      }
+    },
+    "04": {
+      "n_channels": 42,
+      "fs": 1000.0,
+      "fs_source": "assumed 1000 Hz (Fs field absent in this file; all other files state 1000; release scripts use 1000)",
+      "reference_channel": "ROFC1Ref",
+      "regions": [
+        "LOFC",
+        "ROFC",
+        "RSGC"
+      ],
+      "acq": {
+        "unreferenced": {
+          "n_bad": 0,
+          "duration_s": 5400.0,
+          "roundtrip_ok": true
+        },
+        "bipolar": {
+          "n_bad": 3,
+          "duration_s": 5400.0,
+          "roundtrip_ok": true
+        }
+      }
+    },
+    "05": {
+      "n_channels": 27,
+      "fs": 1000.0,
+      "fs_source": "assumed 1000 Hz (Fs field absent in this file; all other files state 1000; release scripts use 1000)",
+      "reference_channel": "ROFC1Ref",
+      "regions": [
+        "LOFC",
+        "ROFC"
+      ],
+      "acq": {
+        "unreferenced": {
+          "n_bad": 0,
+          "duration_s": 2578.776,
+          "roundtrip_ok": true
+        },
+        "bipolar": {
+          "n_bad": 2,
+          "duration_s": 2578.776,
+          "roundtrip_ok": true
+        }
+      }
+    },
+    "06": {
+      "n_channels": 30,
+      "fs": 1000.0,
+      "fs_source": "assumed 1000 Hz (Fs field absent in this file; all other files state 1000; release scripts use 1000)",
+      "reference_channel": "ROFC1Ref",
+      "regions": [
+        "LOFC",
+        "ROFC"
+      ],
+      "acq": {
+        "unreferenced": {
+          "n_bad": 0,
+          "duration_s": 2700.036,
+          "roundtrip_ok": true
+        },
+        "bipolar": {
+          "n_bad": 2,
+          "duration_s": 2700.036,
+          "roundtrip_ok": true
+        }
+      }
+    },
+    "07": {
+      "n_channels": 31,
+      "fs": 1000.0,
+      "fs_source": "assumed 1000 Hz (Fs field absent in this file; all other files state 1000; release scripts use 1000)",
+      "reference_channel": "RACC1Ref",
+      "regions": [
+        "LOFC",
+        "ROFC"
+      ],
+      "acq": {
+        "unreferenced": {
+          "n_bad": 0,
+          "duration_s": 1415.827,
+          "roundtrip_ok": true
+        },
+        "bipolar": {
+          "n_bad": 2,
+          "duration_s": 1415.827,
+          "roundtrip_ok": true
+        }
+      }
+    }
+  },
+  "hours": 4.411626111111111,
+  "subjects_n": 7,
+  "n_recordings": 14,
+  "roundtrip_all_ok": true
+}

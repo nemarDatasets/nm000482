@@ -1,0 +1,37 @@
+{
+  "Name": "StarkweatherOFC-CCEP: orbitofrontal cortico-cortical evoked potential recordings, 7 patients (Starkweather et al.) (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Clara Starkweather"
+  ],
+  "HowToAcknowledge": "Cite the figshare dataset doi:10.6084/m9.figshare.31083118.v2 and the manuscript \"Rapid Homotopic Communication Between Human Orbitofrontal Subregions\" (Starkweather et al.).",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.31083118.v2"
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval; the figshare record does not state the committee (see the manuscript)"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.6084/m9.figshare.31083118.v2",
+      "URL": "https://figshare.com/articles/dataset/31083118",
+      "Version": "figshare version 2 (2026-01-22T23:17:02Z)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_B_conv_lit138.py",
+      "Description": "Authors' preprocessed per-electrode timeseries (unreferenced and bipolar) repackaged as BrainVision float32 in microvolts; stimulation pulses from stimset.mat to events.tsv; all release files in sourcedata/. No further processing. Code in code/."
+    }
+  ],
+  "Keywords": [
+    "orbitofrontal cortex",
+    "cortico-cortical evoked potentials",
+    "CCEP",
+    "single-pulse electrical stimulation",
+    "intracranial EEG",
+    "effective connectivity"
+  ]
+}

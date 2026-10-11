@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "No x/y/z coordinates are released. The release gives per-contact distances relative to orbitofrontal sulci (columns lat_coor, med_coor, mid_coor, olf_coor, trans_coor, in mm): the release description defines lat_coor as the medial/lateral distance from the lateral orbital sulcus; the other columns are copied with their release names (presumably distances from the medial orbital sulcus, midline, olfactory sulcus and transverse orbital sulcus; not defined in the release). brain_region = release electrode label."
+}
