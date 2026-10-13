@@ -33,5 +33,7 @@
     "single-pulse electrical stimulation",
     "intracranial EEG",
     "effective connectivity"
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000482",
+  "Version": "1.0.0"
 }
