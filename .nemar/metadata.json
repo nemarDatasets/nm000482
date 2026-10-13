@@ -1,51 +1,16 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "StarkweatherOFC-CCEP: orbitofrontal cortico-cortical evoked potential recordings, 7 patients (Starkweather et al.) (derivative)",
+  "description": "Preprocessed intracranial recordings of cortico-cortical evoked potentials (CCEPs) elicited by single-pulse electrical stimulation of orbitofrontal cortex in seven patients. The derivative dataset provides unreferenced and bipolar-referenced per-electrode timeseries at 1000 Hz, with stimulation times and amplitudes as events. It supports study of effective connectivity and homotopic communication between human orbitofrontal subregions.",
+  "methods_description": "Authors' preprocessed per-electrode orbitofrontal timeseries (unreferenced and bipolar, 1000 Hz) were repackaged as BrainVision float32 in microvolts. Single-pulse stimulation times and amplitudes were written to events.tsv. Original release files were retained in sourcedata.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Clara Starkweather": {
       "orcid": "0000-0002-7772-5363"
     }
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.6084/m9.figshare.31083118.v2",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000482",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000482",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "StarkweatherOFC-CCEP: orbitofrontal cortico-cortical evoked potential recordings, 7 patients (Starkweather et al.) (derivative)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "10.36 GB (45 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".m",
-    ".mat",
-    ".py",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "Preprocessed intracranial EEG recordings from the orbitofrontal cortex of 7 patients undergoing single-pulse electrical stimulation for cortico-cortical evoked potential (CCEP) mapping. The derivative dataset provides per-electrode timeseries, both unreferenced and bipolar-referenced, sampled at 1000 Hz, along with stimulation event times and amplitudes. It supports study of effective connectivity and homotopic communication between human orbitofrontal subregions.",
-  "methods_description": "Authors' preprocessed per-electrode timeseries (unreferenced and bipolar) at 1000 Hz were repackaged as BrainVision float32 files in microvolts. Single-pulse stimulation times and amplitudes were written to events.tsv. Sulcus-relative electrode distances are provided in electrodes.tsv, and the original release files are kept in sourcedata.",
   "keywords": [
     {
       "term": "orbitofrontal cortex"
@@ -63,10 +28,47 @@
       "term": "effective connectivity"
     },
     {
-      "term": "Prefrontal Cortex",
+      "term": "Electrocorticography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     }
   ],
-  "source_hash": "81007312ba8e110475548a4805f9610a41a157d5c80e013e0f68f21985cae6c8"
+  "related_identifiers": [
+    {
+      "identifier": "10.6084/m9.figshare.31083118.v2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000482",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000482",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "10.36 GB (45 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "48ddbd65791c2f0bcd75e6a4a54cb052e0e022f772f77d218d1b2efd5426cb61"
 }
