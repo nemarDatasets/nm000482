@@ -1,0 +1,38 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000482-blue)](https://doi.org/10.82901/nemar.nm000482)
+
+# Orbitofrontal cortico-cortical evoked potential (CCEP) recordings, 7 patients (Starkweather et al.) - derivative
+
+Release: figshare 31083118 "Rapid Homotopic Communication Between Human Orbitofrontal Subregions - dataset and MATLAB codes" (Clara Starkweather; doi:10.6084/m9.figshare.31083118.v2, CC BY 4.0). Release description:
+"Data and codes pertaining to the manuscript "Rapid Homotopic Communication Between Human Orbitofrontal Subregions" by Starkweather et al. This is a cortico-cortical evoked potential mapping study. This uploaded data contains preprocessed data timeseries (condensed_ecog_OFC_only.mat) with each item within the structure referring to an individual electrode. condensed_ecog(eRec).bipolar refers to the bipolar referenced data from electrode eRec, and condensed_eocg(eRec).lat_coor corresponds to the medial/lateral distance from the lateral orbital sulcus. The critical data analysis summary (Figure 3a) contained in the manuscript was obtained by first running automate_stim_metadata_collection_zscores.m, followed by CCEP_multiplearrays_multiplesubjects_zscores"
+
+## Content (7 participants, 4.41 h per acquisition)
+For each participant the release holds `condensed_ecog_OFC_only.mat`, a struct array with one element per orbitofrontal
+electrode contact carrying the authors' preprocessed timeseries at 1000 Hz: `unreferenced_ecog` (written here as
+`acq-unreferenced`) and `bipolar` (adjacent-contact re-referenced, `acq-bipolar`; the first contact of a chain has no
+bipolar signal and is marked `bad`). Values are written in microvolts (files whose release values are in volts are
+multiplied by 1e6; stated per channel in channels.tsv). This is a DERIVATIVE dataset: the raw recordings are not in the
+release. Channel names are `<brain_region><contact>` from the release fields. Single-pulse stimulation times and
+amplitudes (`stimset.mat`) are in events.tsv (onset = release sample / 1000).
+  - sub-01: 18 OFC contacts (OL), 23.8 min, reference n/a
+  - sub-02: 23 OFC contacts (LOFC, LSFG, ROFC, RSFG), 25.2 min, reference n/a
+  - sub-03: 20 OFC contacts (LOD, ROD), 14.1 min, reference n/a
+  - sub-04: 42 OFC contacts (LOFC, ROFC, RSGC), 90.0 min, reference ROFC1Ref
+  - sub-05: 27 OFC contacts (LOFC, ROFC), 43.0 min, reference ROFC1Ref
+  - sub-06: 30 OFC contacts (LOFC, ROFC), 45.0 min, reference ROFC1Ref
+  - sub-07: 31 OFC contacts (LOFC, ROFC), 23.6 min, reference RACC1Ref
+
+## Localisation
+No x/y/z coordinates are released. electrodes.tsv carries the release's sulcus-relative distances per contact
+(`lat_coor` = medial/lateral distance from the lateral orbital sulcus per the release description; `med_coor`,
+`mid_coor`, `olf_coor`, `trans_coor` copied with their release names) and the release electrode label (`brain_region`).
+
+## sourcedata/figshare-31083118/
+All release files per subject folder, byte for byte: `condensed_ecog_OFC_only.mat`, `condensed_ecog_info_only.mat` (the
+files of subjects 04 and 07 are truncated in the release, 2.9 kB / 2.2 kB, and cannot be opened), `metadata.mat` (CCEP
+onset latency / peak amplitude / peak latency / significance per stimulated -> recorded pair), `stimset.mat`, and the
+authors' MATLAB scripts under `code/`.
+
+## Provenance
+Converted by the ieeg-nemar-20261005 campaign (lane o5c-B) with `code/o5c_B_conv_lit138.py`; round-trip checks (MNE
+read-back) in code/conversion_report.json. A different dataset of the same first author (approach-avoidance SEEG HFA) is
+NEMAR nm000383; participant overlap is unknown.
