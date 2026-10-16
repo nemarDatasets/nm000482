@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "StarkweatherOFC-CCEP: orbitofrontal cortico-cortical evoked potential recordings, 7 patients (Starkweather et al.) (derivative)",
-  "description": "Intracranial recordings of cortico-cortical evoked potentials (CCEPs) elicited by single-pulse electrical stimulation in the orbitofrontal cortex of seven patients, accompanying the manuscript \"Rapid Homotopic Communication Between Human Orbitofrontal Subregions\" (Starkweather et al.). The dataset is a derivative repackaging of the authors' preprocessed per-electrode timeseries, both unreferenced and bipolar, together with stimulation event times and amplitudes. It supports study of effective connectivity and rapid homotopic communication between orbitofrontal subregions.",
-  "methods_description": "Authors' preprocessed per-electrode orbitofrontal timeseries at 1000 Hz (unreferenced and bipolar re-referenced) were converted to BrainVision float32 in microvolts. Single-pulse stimulation times and amplitudes were written to events.tsv. Electrode localisation is given as sulcus-relative distances rather than x/y/z coordinates.",
+  "description": "Intracranial recordings of cortico-cortical evoked potentials (CCEPs) elicited by single-pulse electrical stimulation of orbitofrontal cortex in seven patients. The derivative release contains the authors' preprocessed per-electrode timeseries, both unreferenced and bipolar-referenced, at 1000 Hz, together with stimulation event timing and amplitudes. It supports analysis of effective connectivity and rapid homotopic communication between human orbitofrontal subregions.",
+  "methods_description": "Authors' preprocessed per-electrode orbitofrontal timeseries (unreferenced and adjacent-contact bipolar) were repackaged as BrainVision float32 in microvolts. Single-pulse stimulation times and amplitudes were written to events.tsv, and electrode sulcus-relative distances to electrodes.tsv. No further processing was applied.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -13,7 +13,7 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
+      "term": "orbitofrontal cortex"
     },
     {
       "term": "cortico-cortical evoked potentials"
@@ -22,15 +22,13 @@
       "term": "single-pulse electrical stimulation"
     },
     {
-      "term": "orbitofrontal cortex"
+      "term": "intracranial EEG"
     },
     {
       "term": "effective connectivity"
     },
     {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "term": "Electrocorticography"
     }
   ],
   "related_identifiers": [
@@ -47,11 +45,6 @@
     {
       "identifier": "https://nemar.org/dataset/nm000482",
       "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1016/j.cub.2026.01.076",
-      "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     }
   ],
