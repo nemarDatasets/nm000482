@@ -1,5 +1,5 @@
 {
-  "Name": "StarkweatherOFC-CCEP: orbitofrontal cortico-cortical evoked potential recordings, 7 patients (Starkweather et al.) (derivative)",
+  "Name": "Starkweather-2026-rapid-10.1016/j.cub.2026.01.076",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -35,5 +35,5 @@
     "effective connectivity"
   ],
   "DatasetDOI": "10.82901/nemar.nm000482",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
