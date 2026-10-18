@@ -2,6 +2,7 @@
   - channels.tsv (7 recordings): 29 channels that are NaN in every sample marked status bad.
   - README: section 'NaN samples in the signal files' (7 of 12 scanned recordings hold NaN samples; data files unchanged); details in code/fix-20261018_nan_scan.json.
   - dataset_description.json: Version 1.0.2 -> 1.0.3.
+  - README: section 'NaN samples in the signal files' rewritten from a scan of all 14 recordings (19 Oct 2026; replaces the partial 18 Oct scan); code/fix-20261019_nan_spans.tsv per NaN run and all-NaN channel. Data files unchanged.
 
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
