@@ -1,0 +1,165 @@
+{
+ "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.vhdr": {
+  "n_times": 1427400,
+  "sfreq": 1000.0,
+  "nonfinite_per_channel": {
+   "OL6": 1427400,
+   "OL12": 1427400,
+   "OL18": 1427400
+  },
+  "all_nonfinite": [
+   "OL6",
+   "OL12",
+   "OL18"
+  ],
+  "n_spans": 1,
+  "spans": [
+   [
+    0,
+    1427400
+   ]
+  ]
+ },
+ "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.vhdr": {
+  "n_times": 1514881,
+  "sfreq": 1000.0,
+  "nonfinite_per_channel": {
+   "LOFC10": 1514881,
+   "LSFG1": 1514881,
+   "LSFG2": 1514881,
+   "ROFC1": 1514881,
+   "ROFC2": 1514881,
+   "ROFC9": 1514881,
+   "RSFG2": 1514881
+  },
+  "all_nonfinite": [
+   "LOFC10",
+   "LSFG1",
+   "LSFG2",
+   "ROFC1",
+   "ROFC2",
+   "ROFC9",
+   "RSFG2"
+  ],
+  "n_spans": 1,
+  "spans": [
+   [
+    0,
+    1514881
+   ]
+  ]
+ },
+ "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.vhdr": {
+  "n_times": 844934,
+  "sfreq": 1000.0,
+  "nonfinite_per_channel": {
+   "LOD1": 844934,
+   "LOD2": 844934,
+   "LOD3": 844934,
+   "LOD4": 844934,
+   "LOD10": 844934,
+   "ROD1": 844934,
+   "ROD2": 844934,
+   "ROD8": 844934,
+   "ROD9": 844934,
+   "ROD10": 844934
+  },
+  "all_nonfinite": [
+   "LOD1",
+   "LOD2",
+   "LOD3",
+   "LOD4",
+   "LOD10",
+   "ROD1",
+   "ROD2",
+   "ROD8",
+   "ROD9",
+   "ROD10"
+  ],
+  "n_spans": 1,
+  "spans": [
+   [
+    0,
+    844934
+   ]
+  ]
+ },
+ "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.vhdr": {
+  "n_times": 5400000,
+  "sfreq": 1000.0,
+  "nonfinite_per_channel": {
+   "ROFC16": 5400000,
+   "RSGC13": 5400000,
+   "LOFC16": 5400000
+  },
+  "all_nonfinite": [
+   "ROFC16",
+   "RSGC13",
+   "LOFC16"
+  ],
+  "n_spans": 1,
+  "spans": [
+   [
+    0,
+    5400000
+   ]
+  ]
+ },
+ "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.vhdr": {
+  "n_times": 2578776,
+  "sfreq": 1000.0,
+  "nonfinite_per_channel": {
+   "ROFC16": 2578776,
+   "LOFC11": 2578776
+  },
+  "all_nonfinite": [
+   "ROFC16",
+   "LOFC11"
+  ],
+  "n_spans": 1,
+  "spans": [
+   [
+    0,
+    2578776
+   ]
+  ]
+ },
+ "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.vhdr": {
+  "n_times": 2700036,
+  "sfreq": 1000.0,
+  "nonfinite_per_channel": {
+   "ROFC15": 2700036,
+   "LOFC15": 2700036
+  },
+  "all_nonfinite": [
+   "ROFC15",
+   "LOFC15"
+  ],
+  "n_spans": 1,
+  "spans": [
+   [
+    0,
+    2700036
+   ]
+  ]
+ },
+ "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.vhdr": {
+  "n_times": 1415827,
+  "sfreq": 1000.0,
+  "nonfinite_per_channel": {
+   "ROFC16": 1415827,
+   "LOFC15": 1415827
+  },
+  "all_nonfinite": [
+   "ROFC16",
+   "LOFC15"
+  ],
+  "n_spans": 1,
+  "spans": [
+   [
+    0,
+    1415827
+   ]
+  ]
+ }
+}

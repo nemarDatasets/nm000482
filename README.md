@@ -36,3 +36,11 @@ authors' MATLAB scripts under `code/`.
 Converted by the ieeg-nemar-20261005 campaign (lane o5c-B) with `code/o5c_B_conv_lit138.py`; round-trip checks (MNE
 read-back) in code/conversion_report.json. A different dataset of the same first author (approach-avoidance SEEG HFA) is
 NEMAR nm000383; participant overlap is unknown.
+
+## NaN samples in the signal files (checked 18 Oct 2026)
+
+Some signal files store NaN (not-a-number) samples. A scan of 12 of the 14 recordings (whole files read with MNE on 18 Oct 2026; the 2 largest were not scanned) found them in 7 recordings. Both MNE-BIDS and EEGDash load these files; `get_data()` returns the NaN values.
+
+In 7 recordings 29 channels are NaN in every sample; they are now marked `status` bad in channels.tsv (MNE lists them in `raw.info['bads']`): `sub-01_task-ccep_acq-bipolar_ieeg.vhdr`: OL6, OL12, OL18; `sub-02_task-ccep_acq-bipolar_ieeg.vhdr`: LOFC10, LSFG1, LSFG2, ROFC1, ROFC2, ROFC9, RSFG2; `sub-03_task-ccep_acq-bipolar_ieeg.vhdr`: LOD1, LOD2, LOD3, LOD4, LOD10, ROD1, ROD2, ROD8, ROD9, ROD10; `sub-04_task-ccep_acq-bipolar_ieeg.vhdr`: ROFC16, RSGC13, LOFC16; `sub-05_task-ccep_acq-bipolar_ieeg.vhdr`: ROFC16, LOFC11; `sub-06_task-ccep_acq-bipolar_ieeg.vhdr`: ROFC15, LOFC15; `sub-07_task-ccep_acq-bipolar_ieeg.vhdr`: ROFC16, LOFC15.
+
+Per-recording details (channels, NaN sample spans): `code/fix-20261018_nan_scan.json`.
